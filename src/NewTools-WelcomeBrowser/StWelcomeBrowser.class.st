@@ -171,9 +171,7 @@ Conferences are unique event where you can meet other Pharoers and Smalltalkers,
 - [ESUG - Video channel](https://www.youtube.com/@esugboard)
 - [FAST Foundation](https://www.fast.org.ar)
 - [FAST - Video channel](https://www.youtube.com/@FASTFoundation)
-- [FAST - Smalltalks 2022](https://smalltalks2022.fast.org.ar/)
-- [FAST - Smalltalks 2023](https://smalltalks2023.fast.org.ar/)
-- [FAST - Smalltalks 2024](https://smalltalks2024.fast.org.ar/) (soon)
+- FAST - Smalltalks [2022](https://smalltalks2022.fast.org.ar/), [2023](https://smalltalks2023.fast.org.ar/), [2024](https://smalltalks2024.fast.org.ar/) (soon)
 '
 ]
 
