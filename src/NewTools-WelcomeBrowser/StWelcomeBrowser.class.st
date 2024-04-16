@@ -77,20 +77,28 @@ A large international community of developers worked hard to prepare a new relea
 
 ## Highlights
 
-### Tools
-- ... 
+### System
 
-### System 
-- ...
-   
+- New breakpoint system
+- New architecture for refactorings (migration on its way)
+- Fluid class syntax is not default (old definition method is deprecated)
+- More tools migrated to Spec2
+- Enhancements on Spec2
+- Leaner version of Metacello
+- Code Loading speed improvement
+- Strict mode for FFI
+- Fully optimised version of package tags
+
 ### Virtual machine
-- ...
+
+- Permanent space available
+- String/ByteArray comparisson  
 
 ## Status
 Current Pharo development status:
-1. xxx forks on GitHub
-2. xxx issues closed since Pharo 11
-3. xxxx Pull requests processed since Pharo 11, not counting separately managed projects:
+1. 338 forks on GitHub
+2. 865 issues closed since Pharo 11
+3. 1895 Pull requests processed since Pharo 11, not counting separately managed projects:
 - [http://github.com/pharo-spec/NewTools](http://github.com/pharo-spec/NewTools)
 - [http://github.com/pharo-spec/NewTools-DocumentBrowser](http://github.com/pharo-spec/NewTools-DocumentBrowser)
 - [https://github.com/pharo-spec/NewTools-WelcomeBrowser](https://github.com/pharo-spec/NewTools-WelcomeBrowser)
