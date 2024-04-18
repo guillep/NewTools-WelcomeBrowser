@@ -77,22 +77,25 @@ A large international community of developers worked hard to prepare a new relea
 
 ## Highlights
 
-### System
+### Tools
 
-- New breakpoint system
-- New architecture for refactorings (migration on its way)
-- Fluid class syntax is not default (old definition method is deprecated)
+- Fluid class syntax is now default (old definition method is deprecated)
 - More tools migrated to Spec2
 - Enhancements on Spec2
 - Leaner version of Metacello
-- Code Loading speed improvement
 - Strict mode for FFI
-- Fully optimised version of package tags
 
+### System 
+
+- New breakpoint system
+- New architecture for refactorings (migration on its way)
+- Code Loading speed improvement
+- Fully optimised version of package tags
+   
 ### Virtual machine
 
 - Permanent space available
-- String/ByteArray comparisson  
+- String/ByteArray comparisson speed up
 
 ## Status
 Current Pharo development status:
