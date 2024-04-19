@@ -18,7 +18,7 @@ Class {
 { #category : 'accessing' }
 StWelcomeBrowser class >> logo [
 
-	^ self iconNamed: #pharoBig
+	^ ImageMorph withFormSet: (self iconFormSetNamed: #pharoBig)
 ]
 
 { #category : 'world menu' }
