@@ -56,16 +56,17 @@ BaselineOfWelcomeBrowser >> packageRepository [
 
 { #category : 'private' }
 BaselineOfWelcomeBrowser >> repositoryLocation [
-	| locationFromIceberg |
 
-	locationFromIceberg := (self class environment classNamed: #IceRepository)
-		ifNotNil: [ :iceberg |
-			iceberg registry 
-				detect: [ :each | each name = self repositoryName ]
-				ifNone: [ nil ] ].
+	| locationFromIceberg repo |
+	repo := (self class environment classNamed: #IceRepository)
+		        ifNotNil: [ :iceberg |
+			        iceberg registry
+				        detect: [ :each | each name = self repositoryName ]
+				        ifNone: [ nil ] ].
+	locationFromIceberg := repo repositoryDirectory.
 
-	^ locationFromIceberg
-		ifNil: [ self packageRepository directory asFileReference parent ] 
+	^ locationFromIceberg ifNil: [
+		  self packageRepository directory asFileReference parent ]
 ]
 
 { #category : 'private' }
