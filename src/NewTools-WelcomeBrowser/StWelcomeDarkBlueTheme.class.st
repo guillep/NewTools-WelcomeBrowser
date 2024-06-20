@@ -18,7 +18,7 @@ StWelcomeDarkBlueTheme >> imageFileName [
 { #category : 'accessing' }
 StWelcomeDarkBlueTheme >> label [
 
-	^ 'DarkBlue'
+	^ 'Dark Blue'
 ]
 
 { #category : 'accessing' }
