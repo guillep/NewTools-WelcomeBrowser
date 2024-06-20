@@ -27,6 +27,7 @@ StWelcomeSetupPresenter >> defaultLayout [
 			newBox: 'Theme' 
 			with: (SpBoxLayout newLeftToRight 
 				spacing: 10;
+				add: darkBlueThemePresenter;
 				add: lightThemePresenter;
 				add: darkThemePresenter;
 				yourself));
