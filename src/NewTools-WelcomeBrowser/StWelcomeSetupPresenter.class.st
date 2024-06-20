@@ -9,7 +9,8 @@ Class {
 		'darkThemePresenter',
 		'fullscreenCheckbox',
 		'settingsHelpLabel',
-		'settingsButton'
+		'settingsButton',
+		'darkBlueThemePresenter'
 	],
 	#category : 'NewTools-WelcomeBrowser-Presenters',
 	#package : 'NewTools-WelcomeBrowser',
@@ -51,6 +52,7 @@ StWelcomeSetupPresenter >> initializePresenters [
 
 	self addStyle: 'welcomeSetup'.
 
+	darkBlueThemePresenter := self newThemePresenter: StWelcomeTheme darkBlue.
 	lightThemePresenter := self newThemePresenter: StWelcomeTheme light.
 	darkThemePresenter := self newThemePresenter: StWelcomeTheme dark.
 	
@@ -121,6 +123,7 @@ StWelcomeSetupPresenter >> openSettingsBrowser [
 { #category : 'private' }
 StWelcomeSetupPresenter >> selectTheme: aTheme [
 
+	darkBlueThemePresenter removeStyle: 'welcomeThemeSelected'.
 	lightThemePresenter removeStyle: 'welcomeThemeSelected'.
 	darkThemePresenter removeStyle: 'welcomeThemeSelected'.
 
