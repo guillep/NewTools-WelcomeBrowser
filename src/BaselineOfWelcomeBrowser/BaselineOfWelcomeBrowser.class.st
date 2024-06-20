@@ -1,8 +1,12 @@
+"
+Baseline for [https://github.com/pharo-spec/NewTools-WelcomeBrowser](https://github.com/pharo-spec/NewTools-WelcomeBrowser)
+"
 Class {
 	#name : 'BaselineOfWelcomeBrowser',
 	#superclass : 'BaselineOf',
-	#category : 'BaselineOfWelcomeBrowser',
-	#package : 'BaselineOfWelcomeBrowser'
+	#category : 'BaselineOfWelcomeBrowser-Base',
+	#package : 'BaselineOfWelcomeBrowser',
+	#tag : 'Base'
 }
 
 { #category : 'baselines' }
