@@ -58,7 +58,7 @@ StWelcomeBrowser class >> openForRelease [
 { #category : 'accessing' }
 StWelcomeBrowser class >> windowExtent [
 
-	^ (700@550) scaledByDisplayScaleFactor
+	^ (720@550) scaledByDisplayScaleFactor
 ]
 
 { #category : 'private' }
