@@ -63,7 +63,8 @@ BaselineOfWelcomeBrowser >> repositoryLocation [
 			        iceberg registry
 				        detect: [ :each | each name = self repositoryName ]
 				        ifNone: [ nil ] ].
-	locationFromIceberg := repo repositoryDirectory.
+	
+	repo ifNotNil: [ locationFromIceberg := repo repositoryDirectory ].
 
 	^ locationFromIceberg ifNil: [
 		  self packageRepository directory asFileReference parent ]
